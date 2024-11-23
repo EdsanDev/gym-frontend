@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 60px;
+    align-items: center;
+    background: #3f3f3f;
+}
+.list-navbar-content{
+    display: flex;
+    margin: 10px
+}
+.lista-navbar{
+    margin: 0 20px;
+    list-style: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.link:hover{
+    color: #0056b3;
+}
+.icons-navbar{
+    font-size: 20px;
+}

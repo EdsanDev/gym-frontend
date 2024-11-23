@@ -1,0 +1,30 @@
+.row-home{
+    display: flex;
+    width: 100%;
+}
+.content-home{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contador-home{
+    width: 70%;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+}
+.icon-home{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    font-size: 30px;
+}
+.contador-home-cliente{
+    width: 60%;
+}

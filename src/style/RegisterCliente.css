@@ -1,0 +1,97 @@
+.content-cliente {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-cliente {
+  margin-bottom: 20px;
+  width: 40%;
+  padding: 0 10px;
+}
+.content-cl {
+  width: 45%;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+}
+.content-form-cliente {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-group-cliente {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin: 0 10px;
+}
+.md4 {
+  width: 46%;
+  margin-top: 10px;
+}
+.md6 {
+  width: 95%;
+  margin-top: 10px;
+}
+.btn {
+  margin-bottom: 20px;
+}
+
+.form-group-cliente label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.form-group-cliente input {
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group-cliente input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 91, 255, 0.2);
+  outline: none;
+}
+.btn_cliente {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+.btnEdit {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: #3498db;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.btn_cliente button:hover {
+  border-color: #3498db;
+  box-shadow: 0 0 8px #3498db;
+}
+.btnSave {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: #02a125;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}

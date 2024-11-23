@@ -1,0 +1,132 @@
+.content-search {
+  width: 100%;
+}
+.row {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-search {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.input-search input {
+  width: 70%;
+  height: 45px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  background: white;
+  outline: none;
+  color: black;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.input-search input:focus {
+  border-color: rgb(0, 137, 161);
+  box-shadow: 0 0 8px rgb(0, 137, 161);
+}
+.alerta-cliente {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-cliente-Search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content-info-cliente {
+  width: 18%;
+  margin: 15px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 7px 7px 12px 0 rgb(0, 137, 161);
+  display: flex;
+  flex-direction: column;
+}
+.img-cliente {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.img {
+  height: 120px;
+  border-radius: 50%;
+}
+.info-cliente {
+  width: 100%;
+  color: black;
+}
+.info-cliente h2{
+  text-align: center;
+  margin-top: 5px;
+}
+.info-cliente h3{
+  text-align: center;
+  margin-top: 5px;
+}
+.estadoVigente {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #03ff74;
+}
+.estadoVencido {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #ff0303;
+}
+.btn-info-cliente {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.btn-info-cliente button {
+  width: 90%;
+  height: 30px;
+  background: #0056b3;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+}
+.btn-estado {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn-estado button {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: #3498db;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.btn-estado button:hover {
+  border-color: #3498db;
+  box-shadow: 0 0 8px #3498db;
+}
+.link-edit{
+  text-decoration: none;
+  border: 1px solid #3498db;
+  color: white;
+  background: #3498db;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+

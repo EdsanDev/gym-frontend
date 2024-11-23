@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  background: #202020;
+  color: white;
+}
+.content-row{
+  height: 100vh;
+  display: flex;
+}
+.content-login{
+  flex: 6;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.content-img{
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-img img{
+  width: 100%;
+  height: 100%;
+}
+.title-login{
+  color: white;
+  margin-bottom: 30px;
+}
+.content-form{
+  width: 35%;
+  padding: 10px;
+}
+.group-input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.group-input input{
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  padding: 0 15px;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.group-input input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px #3498db; 
+}
+.btn{
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+.btn button{
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: #3498db;
+  font-size: 15px; 
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.btn button:hover{
+  border-color: #3498db;
+  box-shadow: 0 0 8px #3498db; 
+}
+.link-register{
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.link{
+  color: white;
+}
+.alarma-login{
+  position: absolute;
+  top: 25vh; /* Ajusta según sea necesario */
+  left: 25%; /* Ajusta según sea necesario */
+  right: 25%; /* Ajusta según sea necesario */
+  width: 50%;
+  background: #b60303;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.alarma-login h5{
+  margin-left: 15px;
+}
